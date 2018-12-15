@@ -1,0 +1,38 @@
+;; dnsenum -p 20 -s 100 --threads 5 telenet.be
+
+dnsenum VERSION:1.2.4
+[1;34m
+-----   telenet.be   -----
+[0m[1;31m
+
+Host's addresses:
+__________________
+
+[0mtelenet.be.                              5        IN    A        195.130.131.39
+telenet.be.                              5        IN    A        195.130.131.38
+[1;31m
+
+Name Servers:
+______________
+
+[0mns2.telenet-ops.be.                      5        IN    A        195.130.136.242
+ns.telenet-ops.be.                       5        IN    A        195.130.132.22
+[1;31m
+
+Mail (MX) Servers:
+___________________
+
+[0mmx1.telenet-ops.be.                      5        IN    A        195.130.132.8
+mx2.telenet-ops.be.                      5        IN    A        195.130.132.9
+[1;31m
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+[0m
+Trying Zone Transfer for telenet.be on ns.telenet-ops.be ... 
+
+Trying Zone Transfer for telenet.be on ns2.telenet-ops.be ... 
+
+brute force file not specified, bay.
+
